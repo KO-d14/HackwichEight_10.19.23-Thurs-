@@ -20,7 +20,19 @@ class ViewController: UIViewController {
         self.myLabel.text = "My Segmented Control "
     }
 
-    @IBAction func segmentedControlPressed(_ sender: Any) {
+    @IBAction func segmentedControlPressed(_ sender: Any)
+        {
+        switch segmentedControl.selectedSegmentIndex
+            {
+            case 0:
+            myLabel.text = "First Segment has been selected"
+            
+            case 1:
+            myLabel.text = "Second Segment has been selected"
+            default:break
+        }
+
+
     }
     
 }

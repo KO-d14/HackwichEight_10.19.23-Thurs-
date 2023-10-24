@@ -65,8 +65,9 @@ ON YOUR OWN PROBLEM SET #2: Display Input Text in Label for all indexes (5 point
 3. Set the label to display nothing (no text) when the app first launches (1 point)
  DONE; CODE ABOVE
 4. Set the label to display the text that is input in the text field when all three segments are activated. (3 points)
+DONE
 5. Record your simulator and submit the link via Laulima for this assignment. (6 points)
- 
+DONE
  */
 //PROBLEM SET #4-#4 
         if let text = textField.text {
